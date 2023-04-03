@@ -1,0 +1,74 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+.conteiner{
+    width: 400px;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    background: #FFA07A;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.display-conteiner{
+    text-align: center;
+}
+
+.display-superior{
+    padding: .2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+
+.display-inferior{
+    font-size: 3em;
+    min-height: 1.6em;
+    padding: .2em;
+    overflow-wrap: break-word;
+}
+
+.buttons-conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.buttons-conteiner button{
+    border: 1px solid transparent;
+    border-radius: 0;
+    height: 4em;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #FFDAB9;
+}
+
+
+.buttons-conteiner .number{
+    background-color: #ADD8E6;
+}
+
+.buttons-conteiner button:hover{
+    border-color: #FF5733;
+}
+
+.buttons-conteiner .igual{
+    grid-column: span 2;
+    background-color: #87CEFA ;
+}
+
+
+.buttons-conteiner .igual:hover{
+    background-color:#1E90FF ;
+}
