@@ -1,1 +1,1 @@
-# Calculadora feita com base nos estudos de orienteção de obejetos js
+# Calculadora feita com base nos estudos de orienteção de objetos js
